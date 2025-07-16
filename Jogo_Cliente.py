@@ -25,7 +25,7 @@ tela = pygame.display.set_mode((LARGURA, ALTURA))
 pygame.display.set_caption("Jogo da Velha TCP")
 
 fonte_jogo = pygame.font.SysFont(None, 130)
-fonte_msg = pygame.font.SysFont(None, 55)
+fonte_msg = pygame.font.SysFont(None, 50)
 fonte_botao = pygame.font.SysFont(None, 35)
 
 tabuleiro = [[None] * 3 for _ in range(3)]
