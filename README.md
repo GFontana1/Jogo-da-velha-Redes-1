@@ -1,5 +1,7 @@
 # Jogo-da-velha-Redes-1
 
+#### Feito por: Guilherme Fontana, Henrique Fadigas e Douglas Rocha
+
 ## 1\. Propósito do Software
 
 O software implementa um Jogo da Velha para dois jogadores através de uma rede. Ele segue um modelo cliente-servidor:
