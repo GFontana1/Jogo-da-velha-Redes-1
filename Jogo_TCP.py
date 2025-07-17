@@ -51,10 +51,6 @@ def handle_client(conn, addr):
             simbolo = 'X'
         elif 'O' not in clients.values():
             simbolo = 'O'
-        else:
-            conn.sendall(b"ESPECTADOR\n")
-            conn.close()
-            return
         clients[conn] = simbolo
 
     conn.sendall(f"SEU_SIMBOLO {simbolo}\n".encode())
